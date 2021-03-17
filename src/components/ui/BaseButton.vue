@@ -34,33 +34,34 @@
 button,
 a {
 	text-decoration: none;
-	padding: 0.75rem 1.5rem;
+	padding: 0.55rem 1.5rem;
 	font: inherit;
-	background-color: #3a0061;
-	border: 1px solid #3a0061;
-	color: white;
+	background-color: #fdfa3f;
+	border: 1px solid #fdfa3f;
+	color: #009B77;
 	cursor: pointer;
-	border-radius: 30px;
+	border-radius: 20px;
 	margin-right: 0.5rem;
 	display: inline-block;
+	font-weight: bold;
 }
 
 a:hover,
 a:active,
 button:hover,
 button:active{
-	background-color: #270041;
-	border-color: #270041;
+	background-color: #fdfa3f;
+	border-color: #fdfa3f;
 }
 .flat{
 	background-color: transparent;
-	color: #3a0061;
+	color: #fff;
 	border: none;
 }
 .outline{
 	background-color: transparent;
-	border-color: #270041;
-	color: #270041;
+	border-color: #fdfa3f;
+	color: #fdfa3f;
 }
 .flat:hover,
 .flat:active,

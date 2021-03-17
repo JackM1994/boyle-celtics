@@ -1,26 +1,19 @@
 <template>
-<div>
-    <li>
-        <h3>Boyle Celtic FC</h3>
-        <h4>50/50 Draw</h4>
-    </li>
-    <base-button class='center'>Buy Now!</base-button>
-</div>
-<div>
-    <li>
-        <h3>Boyle Celtic FC</h3>
-        <h4>50/50 Draw</h4>
-    </li>
-    <base-button class='center'>Buy Now!</base-button>
-</div>
-<div>
-    <li>
-        <h3>Boyle Celtic FC</h3>
-        <h4>50/50 Draw</h4>
-    </li>
-    <base-button :class='center'>Buy Now!</base-button>
-</div>
+    <div>
+        <li>
+            <h3>Boyle Celtic FC</h3>
+            <h4>{{name}}</h4>
+        </li>
+        <base-button class='center'>Buy Now!</base-button>
+    </div>
 </template>
+
+<script>
+    export default{
+        props: ['name']
+    }
+</script>
+
 
 <style scoped>
 div{
@@ -28,6 +21,7 @@ div{
     height: 200px;
     width: 300px;
     margin-top: 150px;
+    position: relative;
 }
 li{
     margin: 1rem 0;
@@ -47,6 +41,10 @@ h4{
 .center{
     text-align: center;
     margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
 }
 
 </style>
