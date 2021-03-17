@@ -42,7 +42,7 @@ h4{
     text-align: center;
     margin: 0 auto;
     position: absolute;
-    left: 50%;
+    left: 25%;
     top: 70%;
     transform: translate(-50%, -50%);
 }
