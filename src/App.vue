@@ -1,7 +1,7 @@
 <template>
 	<the-header></the-header>
 	<div class="content">
-		<home-items></home-items>
+		<home></home>
 	</div>
 	
 	<router-view v-slot="slotProps">
@@ -13,12 +13,12 @@
 
 <script>
 import TheHeader from './components/layout/TheHeader.vue';
-import HomeItems from './components/home/HomeItems.vue';
+import Home from './pages/Home.vue';
 
 export default {
 	components :{
 		TheHeader,
-		HomeItems
+		Home
 	}
 }
 </script>
