@@ -1,6 +1,6 @@
 <template>
 	<the-header></the-header>
-	<div class="content">
+	<div>
 		<home></home>
 	</div>
 	
@@ -24,10 +24,7 @@ export default {
 </script>
 
 <style>
-.content{
-	display: flex;
-	justify-content: center;
-}
+
 	.route-enter-from{
 		opacity: 0;
 		transform: translateY(-30px);
