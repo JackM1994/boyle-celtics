@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2>{{title}}</h2>
-        <h2>{{contact}}</h2>
+        <h3>{{contact}}</h3>
     </div>
 </template>
 
@@ -21,4 +21,18 @@
         top: 50%;
         transform: translate(-50%, -50%);
     }
+    h2,
+    h3{
+        font-size: 2rem;
+        color: #5ca08e;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom:20px;
+        letter-spacing: 0.4px;
+    }
+    h3{
+        color:#fff;
+        margin-top: 5px;
+    }
+    
 </style>

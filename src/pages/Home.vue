@@ -5,7 +5,7 @@
         <home-items name="Covid Form"></home-items>
     </div>
     <div class="contact-div">
-        <contact-items></contact-items>
+        <contact-items title="Boyle Celtic" contact="Contact Information"></contact-items>
     </div>
  
 </template>
