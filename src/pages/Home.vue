@@ -5,7 +5,15 @@
         <home-items name="Covid Form"></home-items>
     </div>
     <div class="contact-div">
-        <contact-items title="Boyle Celtic" contact="Contact Information"></contact-items>
+        <contact-items 
+            title="Boyle Celtic" 
+            contact="Contact Information"
+            address ="Club Address"
+            clubContact="Club Contact"
+            boyle="DeerPark Boyle"
+            login="Login for club contact details"
+            >
+        </contact-items>
     </div>
  
 </template>
@@ -32,7 +40,7 @@ export default{
 }
 .contact-div{
     position: relative;
-    margin-top: 250px;
+    margin-top: 350px;
     
 }
 </style>
