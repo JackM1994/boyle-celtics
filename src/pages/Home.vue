@@ -1,5 +1,10 @@
 <template>
+    <div>
+     
+    </div>
+    
     <div class='box-container'>
+        <h1 class="main-header">Boyle Celtic FC</h1>
         <home-items name="50/50 Draw"></home-items>
         <home-items class="middle" name="Pay Registration" ></home-items>
         <home-items name="Covid Form"></home-items>
@@ -29,6 +34,12 @@ export default{
 }
 </script>
 <style scoped>
+.main-header{
+    margin-top: 90px;
+    position: absolute;
+    left: 20%;
+   
+}
 .box-container{
     display: flex;
     flex-direction: row;
