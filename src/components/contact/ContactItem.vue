@@ -3,13 +3,17 @@
         <h2>{{title}}</h2>
         <h3>{{contact}}</h3>
         <section>
-            <h4>{{address}}</h4>
-            <section class='block'></section>
-            <h4>{{clubContact}}</h4>
+            <tr>
+                <th><h4>{{address}}</h4></th>
+                <th><section class='block'></section></th>
+                <th><h4>{{clubContact}}</h4></th>
+            </tr>
+            <tr>
+                <td><h6 class='left'>{{boyle}}</h6></td>
+                <td class="middle"></td>
+                <td><h6 class='right'>{{login}}</h6></td>
+            </tr>
         </section>
-         <h6 class='left'>{{boyle}}</h6>
-         <h6 class='right'>{{login}}</h6>
-       
     </div>
 </template>
 
@@ -38,27 +42,33 @@
         margin-bottom:20px;
         letter-spacing: 0.4px;
     }
-    h3,
-    h4,
-    h6{
-        color:#fff;
-        margin-top: 5px;
+    h3{
+        color: #fff;
+        margin-top: 10px;
     }
     h4,
     h6{
-        font-size: 1.8rem;
+        color:#fff;
+        margin-top: -28px;
+    }
+    h4,
+    h6{
+        font-size: 1.5rem;
        
        
     }
     h6{
         font-size: 1rem;
         margin: 10px;
-        margin-top: -40px;
+        margin-top: -80px;
     }
     section{
         margin-top: 60px;
-        display: flex;
-        justify-content: space-evenly;
+        display: table;
+        width: 100%
+    }
+    td{
+        width: 33.33%;
     }
     .block{
         background-color: #5ca08e;
@@ -66,6 +76,15 @@
         width: 8px;
         border-radius: 20px;
         margin:20px;
+    }
+    .left,
+    .right{
+        margin-top: -215px;
+        text-align: center;
+        margin-left: 5px;
+    }
+    .middle{
+        width: 7%;
     }
     
 </style>
