@@ -37,10 +37,16 @@ export default{
 }
 .middle{
     background-color: #5ca08e;
+    transition: all 0.2s ease-out;
 }
 .contact-div{
     position: relative;
     margin-top: 350px;
     
+}
+.middle:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: 10000;
 }
 </style>

@@ -34,13 +34,13 @@
 button,
 a {
 	text-decoration: none;
-	padding: 0.55rem 1.5rem;
+	padding: 0.4rem 2.5rem;
 	font: inherit;
-	background-color: #fdfa3f;
-	border: 1px solid #fdfa3f;
-	color: #009B77;
+	background-color: inherit;
+	border: 1px solid #fff;
+	color: #fff;
 	cursor: pointer;
-	border-radius: 20px;
+	border-radius: 5px;
 	margin-right: 0.5rem;
 	display: inline-block;
 	font-weight: bold;
@@ -50,7 +50,7 @@ a:hover,
 a:active,
 button:hover,
 button:active{
-	background-color: #fdfa3f;
+	background-color: inherit;
 	border-color: #fdfa3f;
 }
 .flat{

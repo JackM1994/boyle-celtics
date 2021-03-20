@@ -22,14 +22,16 @@ div{
     width: 300px;
     margin-top: 150px;
     position: relative;
+    transition: all 0.2s ease-out;
 }
 li{
     margin: 1rem 0;
-    border: 1px solid #009B77;
+    border: 1px solid inherit;
     border-radius: 12px;
     padding: 1rem;
     list-style: none;
-    color: #fff;
+    color: #292a2c;
+   
 }
 h3{
     font-size: 1.5rem;;
@@ -42,9 +44,14 @@ h4{
     text-align: center;
     margin: 0 auto;
     position: absolute;
-    left: 25%;
+    left: 43%;
     top: 70%;
     transform: translate(-50%, -50%);
+}
+div:hover{
+    transform: scale(1.1);
+    z-index: 100000;
+    cursor: pointer;
 }
 
 </style>
