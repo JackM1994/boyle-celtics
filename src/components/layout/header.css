@@ -7,6 +7,8 @@ header {
   align-items: center;
   margin-top: -15px;
   color: #fff;
+  position: fixed;
+  z-index: 20000000000;
 }
 
 header a {

@@ -1,7 +1,5 @@
 <template>
-    <div>
-     
-    </div>
+    <img class="boyle-logo" src="../images/boyle-logo.png" />
     
     <div class='box-container'>
         <h1 class="main-header">Boyle Celtic FC</h1>
@@ -34,6 +32,13 @@ export default{
 }
 </script>
 <style scoped>
+.boyle-logo{
+    position: absolute;
+    top: 3%;
+    left: 39%;
+}
+
+
 .main-header{
     margin-top: 90px;
     position: absolute;
@@ -41,6 +46,7 @@ export default{
    
 }
 .box-container{
+    margin-top: 120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
