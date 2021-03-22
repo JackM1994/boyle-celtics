@@ -1,5 +1,8 @@
 <template>
 	<the-header></the-header>
+	<router-view>
+		
+	</router-view>
 	<div class="main">
 		<h1 class="header">Boyle Celtic FC</h1>
 	</div>
