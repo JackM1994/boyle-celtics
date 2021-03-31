@@ -1,24 +1,24 @@
 <template>
-    <img class="boyle-logo" src="../images/boyle-logo.png" />
-    
-    <div class='box-container'>
-        <h1 class="main-header">Boyle Celtic FC</h1>
-        <home-items name="50/50 Draw"></home-items>
-        <home-items class="middle" name="Pay Registration" ></home-items>
-        <home-items name="Covid Form"></home-items>
+    <div class="home">
+        <img class="boyle-logo" src="../images/boyle-logo.png" />
+        <div class='box-container'>
+            <h1 class="main-header">Boyle Celtic FC</h1>
+            <home-items name="50/50 Draw"></home-items>
+            <home-items class="middle" name="Pay Registration" ></home-items>
+            <home-items name="Covid Form"></home-items>
+        </div>
+        <div class="contact-div">
+            <contact-items 
+                title="Boyle Celtic" 
+                contact="Contact Information"
+                address ="Club Address"
+                clubContact="Club Contact"
+                boyle="DeerPark Boyle"
+                login="Login for club contact details"
+                >
+            </contact-items>
+        </div>
     </div>
-    <div class="contact-div">
-        <contact-items 
-            title="Boyle Celtic" 
-            contact="Contact Information"
-            address ="Club Address"
-            clubContact="Club Contact"
-            boyle="DeerPark Boyle"
-            login="Login for club contact details"
-            >
-        </contact-items>
-    </div>
- 
 </template>
 
 <script>
@@ -37,6 +37,19 @@ export default{
     top: 3%;
     left: 39%;
 }
+
+.home{
+        width: 98%;
+        border: solid 1px rgb(238, 238, 238);
+        border-radius: 3px;
+        z-index: 100000;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, 60%);
+        background-color: #fff;
+        height: 1100px; 
+    }
 
 
 .main-header{

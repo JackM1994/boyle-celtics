@@ -6,19 +6,22 @@
 	<div class="main">
 		<h1 class="header">Boyle Celtic FC</h1>
 	</div>
-	<div class="home">
-		<home></home>
-	</div>
+	
+
+
+	
+	
+	
 </template>
 
 <script>
 import TheHeader from './components/layout/TheHeader.vue';
-import Home from './pages/Home.vue';
+
+
 
 export default {
 	components :{
-		TheHeader,
-		Home
+		TheHeader	
 	}
 }
 </script>
@@ -39,18 +42,7 @@ export default {
 		font-size: 4rem;
 		color: #fff;
 	}
-	.home{
-		width: 99%;
-		border: solid 1px rgb(238, 238, 238);
-		border-radius: 3px;
-		z-index: 100000;
-		top: 50%;
-		left: 50%;
-		position: absolute;
-		transform: translate(-50%, 60%);
-		background-color: #fff;
-		height: 1100px;	
-	}
+	
 
 	.route-enter-from{
 		opacity: 0;
