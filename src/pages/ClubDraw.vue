@@ -1,8 +1,19 @@
 <template>
 	<div>
-		<h1>50/50 Draw</h1>
+		<draw-items 
+			title="Boyle Celtic F.C">
+		</draw-items>
 	</div>
 </template>
+
+<script>
+import DrawItems from '../components/draw/DrawItems.vue';
+export default{
+    components: {
+        DrawItems
+    }
+}
+</script>
 
 <style scoped>
 	div{
