@@ -1,7 +1,10 @@
 <template>
 	<div>
 		<draw-items 
-			title="Boyle Celtic F.C">
+			title="Boyle Celtic F.C"
+			name="Name"
+			address="Address"
+			contactNo="Contact No">
 		</draw-items>
 	</div>
 </template>
