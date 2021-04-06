@@ -54,7 +54,7 @@
 	h2,
 	h3{
 		text-align: center;
-		margin: 10px 0;
+		margin: 5px 0;
 		position: absolute;
 		top: 20%;
 		left: 48%;
@@ -80,7 +80,7 @@
 	input{
 		border: none;
 		border-bottom: dotted 2px black;
-		width: 70%;
+		width: 400px;
 	}
 	.disclaimer{
 		margin-top: 15px;
